@@ -12,3 +12,7 @@
     grid-area:1/10/9/15;
     background-color: hsl(217,19%,35%);
 }
+.kira {
+    grid-area: 1/15/20/20;
+    background-color:hsl(0, 0%, 100%) ;
+}
