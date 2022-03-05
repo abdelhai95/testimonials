@@ -10,6 +10,7 @@
     grid-area: 1/1/5/6;
     background-color: hsl(263,55%,52%);
     color:white;
+    z-index: 1;
 }
 #jonathan {
     grid-area:1/6/5/8;
@@ -58,6 +59,7 @@ to id */
 .header {
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    z-index: 2;
 } 
 /* taking the ID out of the flow
 so the content could fit in */
@@ -102,4 +104,13 @@ so the content could fit in */
 .bottom  {
     font-size:8px;
     opacity: 70%;
+}
+/* the quote svg */
+#quote {
+    width: 7em;
+    height: 8em;
+    position: absolute;
+    top:2em;
+    left:35em;
+    z-index: 1;
 }
