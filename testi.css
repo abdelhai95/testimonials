@@ -49,14 +49,17 @@ to id */
    padding:10px;
    font-size:7px;
    box-sizing: border-box;
+   font-family: 'Barlow Semi Condensed', sans-serif;
    
  }
 .header {
     font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 } 
 /* taking the ID out of the flow
 so the content could fit in */
 .lists {
     position:absolute;
     font-size: 13px;
+    
 }
