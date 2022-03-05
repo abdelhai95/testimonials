@@ -89,7 +89,7 @@ so the content could fit in */
 }
 #kir {
     top:2px;
-    right:80px;
+    left:57em;
 }
 #jea {
     top:18em;
@@ -113,4 +113,25 @@ so the content could fit in */
     top:2em;
     left:35em;
     z-index: 1;
+}
+/* mobile design */
+@media (max-width:688px) {
+    #daniel {
+        grid-area: 1/1/5/5;
+    }
+    #jonathan {
+        grid-area:1/5/5/7;
+    }
+    #jon {
+        left:33em;
+    }
+    #kir {
+        left:49em;
+    }
+    #kira {
+        grid-area:1/7/9/10;
+    }
+    #patrick {
+        grid-area:5/3/9/7;
+    }
 }
