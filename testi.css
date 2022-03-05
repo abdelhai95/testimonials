@@ -71,9 +71,27 @@ so the content could fit in */
 .top {
     margin-bottom:0px;
 }
-/* 1st card identifiers */
+/* card identifiers */
 #dan {
     top:2px;
     left:10px;
+    color:white;
+}
+#jon {
+    top:2px;
+    left:41em;
+    color:white;
+}
+#kir {
+    top:2px;
+    right:80px;
+}
+#jea {
+    top:18em;
+    left:1em;
+}
+#pat {
+    top:18em;
+    left:17em;
     color:white;
 }
