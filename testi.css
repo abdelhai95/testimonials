@@ -1,22 +1,28 @@
 #container {
     display: grid;
-    grid-template-columns:repeat(20,100px);
-    grid-template-rows: repeat(20,100px);
-    gap: 20px 20px;
+    grid-template-columns:repeat(10,70px);
+    grid-template-rows: repeat(10,35px);
+    gap: 10px 10px;
+    background-color: hsl(0, 0%, 81%);
+    width:1200px;
 }
 .daniel {
-    grid-area: 1/1/9/10;
+    grid-area: 1/1/5/5;
     background-color: hsl(263,55%,52%);
 }
 .jonathan {
-    grid-area:1/10/9/15;
+    grid-area:1/5/5/8;
     background-color: hsl(217,19%,35%);
 }
 .kira {
-    grid-area: 1/15/20/20;
+    grid-area: 1/8/9/10;
     background-color:hsl(0, 0%, 100%) ;
 }
 .jeanette {
-    grid-area: 9/1/20/5;
+    grid-area: 5/1/9/3;
     background-color: hsl(0, 0%, 100%);
+}
+.patrick {
+    grid-area: 5/3/9/8;
+    background-color:hsl(219, 29%, 14%) ;
 }
