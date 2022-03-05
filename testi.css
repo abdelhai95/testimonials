@@ -60,6 +60,20 @@ to id */
 so the content could fit in */
 .lists {
     position:absolute;
-    font-size: 13px;
-    
+    font-size: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/* put the ID's in shape */
+.down {
+    margin-top:-10px;
+    opacity: 70%;
+}
+.top {
+    margin-bottom:0px;
+}
+/* 1st card identifiers */
+#dan {
+    top:2px;
+    left:10px;
+    color:white;
 }
