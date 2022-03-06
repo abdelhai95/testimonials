@@ -114,7 +114,7 @@ so the content could fit in */
     left:35em;
     z-index: 1;
 }
-/* mobile design */
+/* relatively responsive design */
 @media (max-width:688px) {
     #daniel {
         grid-area: 1/1/5/5;
@@ -129,9 +129,51 @@ so the content could fit in */
         left:49em;
     }
     #kira {
-        grid-area:1/7/9/10;
+        grid-area:1/7/9/9;
     }
     #patrick {
         grid-area:5/3/9/7;
     }
 }
+/* mobile version */
+@media (max-width:607px) {
+    #container {
+        display:grid;
+        grid-template-columns: repeat(5,100px);
+        grid-template-rows: repeat(19,50px);
+    }
+    #daniel {
+        grid-area: 1/1/6/3;
+    }
+    #jonathan {
+        grid-area:1/3/6/5;
+        
+    }
+    #jeanette {
+        grid-area:6/1/12/3;
+    }
+    #patrick {
+        grid-area:6/3/12/5;
+    }
+    #kira {
+        grid-area:12/1/15/5;
+    }
+    #jon {
+        left:23em;
+    }
+    #pat {
+        top:30em;
+        left:23em;
+    }
+    #jea {
+        top:30em;
+    }
+    #kir {
+        top:66em;
+        left:1em;
+    }
+    #quote {
+        left:21em;
+    }
+}
+/* last media size */
